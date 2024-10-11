@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +16,18 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  margin-bottom: 32px;
+}
+
+.plants-type {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-info {
+  width: 200px;
 }
 
 /* do not edit this footer */
